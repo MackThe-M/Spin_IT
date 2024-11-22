@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin the Circle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Spin the Circle Event</h1>
+        <form id="nameForm">
+            <label for="userName">Enter Your Name:</label>
+            <input type="text" id="userName" placeholder="Enter your name" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="wheel-container">
+            <div class="wheel" id="wheel"></div>
+            <div class="arrow">▶</div>
+        </div>
+        <button id="spinButton" disabled>Spin</button>
+        <p id="result"></p>
+        <div id="hostControls" style="display:none;">
+            <button id="resetButton">Reset Event</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
